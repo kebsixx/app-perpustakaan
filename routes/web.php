@@ -16,3 +16,10 @@ Route::resource('members', MemberController::class);
 Route::resource('loans', LoanController::class);
 Route::put('/loans/{id}/kembalikan', [LoanController::class, 'kembalikan'])
     ->name('loans.kembalikan');
+
+Route::get('/admin', function () {
+    return 'Test admin route';
+});
+Route::get('/admin/info', function () {
+    return 'Test admin info route';
+});
