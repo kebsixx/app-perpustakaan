@@ -92,6 +92,10 @@
             display: inline;
         }
 
+        label { display: block; margin-top: 12px; font-weight: bold; }
+        input, select, textarea { width: 100%; padding: 6px; margin-top: 4px; box-sizing: border-box; }
+        .error { color: #b91c1c; font-size: 14px; margin-top: 4px; }
+
         footer {
             text-align: center;
             padding: 20px;
