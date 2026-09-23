@@ -10,7 +10,7 @@ class Member extends Model
         'nama',
         'nim',
         'email',
-        'no_telepon',
+        'nomor_telepon',
         'alamat',
         'status',
     ];
